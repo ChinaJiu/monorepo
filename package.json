@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:vite1": "pnpm -F vite1 dev",
+    "dev:vite2": "pnpm -F vite2 dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=16",
+    "pnpm": ">=7"
+  },
+  "dependencies": {
+    "@my/comv2": "workspace:^",
+    "@my/comv3": "workspace:^"
+  }
+}
