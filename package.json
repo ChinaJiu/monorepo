@@ -16,7 +16,6 @@
     "pnpm": ">=7"
   },
   "dependencies": {
-    "@my/comv2": "workspace:^",
     "@my/comv3": "workspace:^"
   }
 }
