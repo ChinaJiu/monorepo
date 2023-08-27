@@ -16,6 +16,7 @@
     "pnpm": ">=7"
   },
   "dependencies": {
-    "@my/comv3": "workspace:^"
+    "@my/comv3": "workspace:^",
+    "vue-router": "^4.2.4"
   }
 }

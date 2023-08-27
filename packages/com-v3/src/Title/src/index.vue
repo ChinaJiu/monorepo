@@ -9,11 +9,17 @@ const count = ref(0)
 </script>
 
 <template>
-  <h1>V3 --- {{ msg }}</h1>
-  <h2>h2</h2>
+  <div class="wrapper">
+    <h1>V3 --- {{ msg }}</h1>
+    <h2>h2</h2>
+  </div>
+  
 </template>
 
 <style scoped>
+.wrapper{
+  color: red;
+}
 .read-the-docs {
   color: #888;
 }
