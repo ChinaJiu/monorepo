@@ -9,16 +9,16 @@ const basename = process.env.NODE_ENV === "production" ? "/demo-main-vue/" : "";
 Vue.use(VueRouter);
 
 const routes = [
-  // {
-  //   path: "/vite1",
-  //   name: "vite1",
-  //   component: Vite1,
-  // },
-  // {
-  //   path: "/vite2",
-  //   name: "vite2",
-  //   component: Vite2,
-  // },
+  {
+    path: "/vite1",
+    name: "vite1",
+    component: Vite1,
+  },
+  {
+    path: "/vite2",
+    name: "vite2",
+    component: Vite2,
+  },
   {
     path: "/",
     redirect: "/vite1/a",
